@@ -12,9 +12,7 @@
 ![Vite Badge](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=flat)
 
 
-<strong>Project:</strong> 
-    - From scratch, I created it for my company. 
-    - This is a single page app, responsive and has a mobile version.
+<strong>Project:</strong> From scratch, I created it for my company. This is a single page app, responsive and has a mobile version.
 
 
 <strong>Install dependencies:</strong>
