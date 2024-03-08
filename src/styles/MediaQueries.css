@@ -1,0 +1,203 @@
+/*================================== MEDIA QUERIES ==================================*/
+
+@media screen and (min-width: 1025px){
+
+    .gr-header, .reno{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .main-container{ 
+        background:rgba(4, 35, 63, 0.9);
+        background:linear-gradient(90deg, rgba(4, 35, 63, 0.95) 0%, rgba(21, 65, 85, 0.95) 100%);
+        border: 0.2vw solid #BE9D75;
+    }
+
+    .flip-header{
+        display:none;
+    }
+
+    header{
+        width:100%;
+        height:30vw;
+        margin:0 auto 2vw auto;
+    }
+
+    .peinture{
+        margin:0 0 0 8vw;
+        font-size:4.8vw;
+    }
+
+    .parements{
+        margin:0 0 0 12vw;
+        font-size:3.2vw;
+    }
+
+    .sdb{
+        margin:0 0 0 6vw;
+        font-size:3.3vw;
+    }
+    
+    .verriere{
+        margin:0 0 0 16vw;
+        font-size:3.6vw;
+    }
+
+    .electricite{
+        margin:0 0 0 7vw;
+        font-size:3vw;
+    }
+
+    .decoration{
+        margin:0 5vw 0 0; 
+        font-size:4vw;
+    }
+
+    .parquet{
+        margin:0 10vw 0 0;
+        font-size:5vw;
+    }
+
+    .cuisine{
+        margin:0 9vw 0 0;
+        font-size:3.8vw;
+    }
+    
+    .cloisons{
+        margin:0 17vw 0 0;
+        font-size:3.5vw;
+    }
+    
+    .plomberie{
+        margin:0 8vw 0 0;
+        font-size:3.2vw;
+    }
+    
+    .cards-container{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-items:center;
+        align-items:center;
+    } 
+
+    .left-column, .right-column{
+        width:90%;
+        margin:auto auto;
+    }
+    
+    .card{
+        width:90%;
+        height:30vw;
+    } 
+
+    .card:hover .card-inner{
+        transform-origin: center;
+        transform:rotateY(-180deg); 
+        box-shadow:0 0 4vw #ffffff, 0 0 4vw #ffffff; 
+    }   
+                                                      
+    .rotate{
+        transform: none;
+        animation: none;
+    }
+
+    .card-front-text{
+        font-size:5vw; 
+    }
+
+    .card-front-text hr{
+        width:10vw;
+        height:0.3vw;
+        margin:0.5vw auto -4vw auto;
+    }
+
+    .dot{
+        font-size:10vw;
+    }
+
+    .card-back-text{
+        font-size:2.5vw;
+        transform:translateZ(10vw);
+    }
+    
+    .card-back-text hr{
+        width:15vw;
+        height:0.3vw;
+        margin:0.5vw auto;
+    }
+
+    button{
+        width:40%;
+        height:3.8vw;
+        font-size:2vw;
+    }
+
+    button[name]:after{
+        width:20vw;
+        bottom:-2.5vw;
+        left:75%;
+        padding:.35vw;
+        font-size:1.2vw;    
+    }
+
+    .pbottom{
+        font-size:1.5vw;
+        font-weight:500;
+        margin-bottom:2vw;;
+    }
+}
+
+/* =========================== 800px ====================================== */
+
+@media screen and (max-width: 800px){
+
+
+    button[name]:after{
+        width:25vw;
+        bottom:-3vw;
+        left:85%;
+        font-size:1.5vw;  
+    }
+
+    .pbottom{
+        font-size:1.8vw;
+    }
+
+}
+
+/* =========================== 500px ====================================== */
+
+@media screen and (max-width: 500px){ 
+
+    .card-back-text{
+        font-size:3vw;
+    }
+    
+    .card-back-text hr{
+        width:15vw;
+        height:0.4vw;
+        margin:0.5vw auto; 
+    }
+
+    button{
+        width:50%;
+        height:5vw;
+        font-size:2.8vw;
+    }
+
+    button[name]:after{
+        width:30vw;
+        bottom:-4vw;
+        left:83%;
+        font-size:1.8vw;  
+    }
+
+    .pbottom{
+        font-size:2.5vw;
+        margin-bottom:3vw;
+    }
+
+}
